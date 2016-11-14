@@ -2,6 +2,9 @@
    <head>
     <title>Black Goose Bistro</title>
     <style type="text/css">
+        
+    
+        
         body {
             background-color:beige;
                 
@@ -29,10 +32,23 @@
         }
           
        </style>
+       
+       <script language="javascript" type="text/javascript">
+ <!--
+ function popitup(url) {
+newwindow=window.open(url,'name','height=600,width=425');
+if (window.focus) {newwindow.focus()}
+return false;
+ }
+ // -->
+</script>
+       
     </head>
 
 <html>
   <body>
+      
+      <a name="top"></a>
 <head>
       <h1><center><a href="index.htm"><img src="images/blackgoose.png" alt= “Black Goose logo” /></a> <br/>Black Goose Bistro </center> </h1>
 
@@ -106,16 +122,14 @@
              <p>
                  <h2>Madbucha</h2>
                     <a target="new"></a>
- <a href="blog.htm" target="new"><img
+ <a href="blog.htm" onclick="return popitup('blog1.htm')"><img
 src="images/Blog_entries/foodbig.jpg" alt="Madbucha"
 width="100" height="100" border="0"></a>
-
 </p>
             <p>
                 <h2>Chamin</h2>
                 <a target="new"></a>
-                
-     <a href="blog2.htm" target="new"><img
+     <a href="blog2.htm" onclick="return popitup('blog2.htm')"><img
 src="images/Blog_entries/food2.jpg" alt="Chamin"
 width="100" height="100" border="0"></a>
 
@@ -123,7 +137,7 @@ width="100" height="100" border="0"></a>
                 
                 <p>
                     <h2>Chumus</h2>
-                      <a target="new"></a>
+                      <a target="_top"></a>
              <a href="blog1.htm" target="new"><img
 src="images/Blog_entries/food3small.jpg" alt="Chumus"
 width="100" height="100" border="0"></a>
@@ -131,7 +145,7 @@ width="100" height="100" border="0"></a>
 </p>     
                 <p>
                     <h2>Bagels</h2>
-                    <a target="new"></a>
+                    <a target="_parent"></a>
      <a href="blog3.htm" target="new"><img
 src="images/Blog_entries/food4small.jpg" alt="bagel"
 width="100" height="100" border="0"></a>
@@ -170,6 +184,8 @@ width="100" height="100" border="0"></a>
 
     <h2><a href="location.htm">Location and Time</a></h2>
       
+        <a href="#top">Back to the top</a>
+        
     </body>
     
 </html>
